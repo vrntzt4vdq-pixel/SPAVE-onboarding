@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPAVE Onboarding - Signup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="signup.js" defer></script>
+  </head>
+  <body>
+    <main class="flow">
+      <section class="screen screen--auth" id="signup">
+        <div class="phone phone--light">
+          <div class="status-bar">
+            <span>9:41</span>
+            <div class="status-icons">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+
+          <div class="auth-header">
+            <div class="logo-badge logo-badge--small">S</div>
+            <h2>SPAVE</h2>
+          </div>
+
+          <form class="auth-form">
+            <h3>Create Your Account</h3>
+
+            <label>
+              <span>Full Name</span>
+              <input type="text" placeholder="Enter your name" />
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input type="email" placeholder="Enter your email" />
+            </label>
+
+            <label>
+              <span>Password</span>
+              <input type="password" placeholder="Create a password" />
+            </label>
+
+            <button class="primary-submit" type="button">Sign Up</button>
+
+            <p class="or-divider">or</p>
+
+            <button class="social-button" type="button">Continue with Apple</button>
+            <button class="social-button" type="button">Continue with Google</button>
+
+            <p class="auth-switch">
+              Already have an account? <a href="signin.html">Sign in</a>
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
